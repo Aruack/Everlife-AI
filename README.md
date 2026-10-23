@@ -154,7 +154,7 @@ To connect your physical **Bee Wearable device** or **Apple Watch**:
 
 Run the automated test suite verifying the complete Bee -> Evermind -> LooseEnds -> DoorstepOps -> FormShift flow:
 
-```powershell
+```bash
 cd backend
 python -m pytest tests/ -v
 ```
