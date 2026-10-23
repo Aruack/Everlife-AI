@@ -25,6 +25,15 @@ At the core of the platform is **Evermind**, a zero-fabrication memory engine th
 
 ---
 
+## 🎬 Live Platform Video Demonstration
+
+- **High-Definition MP4 Video:** [everlife_demo_video.mp4](screenshots/everlife_demo_video.mp4) (Standard H.264 1080p Full HD)
+- **Inline Animated Walkthrough:**
+
+![Everlife AI Live End-to-End Walkthrough](screenshots/everlife_demo_video.webp)
+
+---
+
 ## 📸 Visual Interface & Walkthrough
 
 ### 1. Overview Dashboard
