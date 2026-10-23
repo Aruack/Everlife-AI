@@ -12,6 +12,8 @@
 
 At the core of the platform is **Evermind**, a zero-fabrication memory engine that ingests records from the **Bee Wearable** (or Apple Watch running Bee software), extracts candidate facts, decisions, and commitments, requires human approval before persistence, and retrieves evidence-grounded answers with verifiable citations.
 
+![Everlife AI Overview Dashboard](screenshots/01_overview.png)
+
 ### Integrated Subsystems:
 1. **Bee Wearable AI (Primary Track):** Authorized lifelogging context stream via the official `@beeai/cli`.
 2. **Evermind Memory Engine:** Persistent local SQLite storage with candidate review gates and citation-backed RAG.
@@ -23,19 +25,68 @@ At the core of the platform is **Evermind**, a zero-fabrication memory engine th
 
 ---
 
-## 📸 Visual Interface & Screenshots
+## 📸 Visual Interface & Walkthrough
 
-| Page | Preview |
-| :--- | :--- |
-| **1. Overview Dashboard** | `screenshots/01_overview.png` |
-| **2. Evermind Memory Engine** | `screenshots/02_evermind_memory.png` |
-| **3. LooseEnds Commitments** | `screenshots/03_looseends_commitments.png` |
-| **4. DoorstepOps Ring Incidents** | `screenshots/04_doorstepops_incidents.png` |
-| **5. FormShift Fire TV Workouts** | `screenshots/05_formshift_workouts.png` |
-| **6. AI Memory Assistant (RAG)** | `screenshots/06_ai_assistant.png` |
-| **7. Integrations Hub** | `screenshots/07_integrations_hub.png` |
-| **8. Activity & Audit History** | `screenshots/08_activity_history.png` |
-| **9. Privacy & Settings** | `screenshots/09_privacy_settings.png` |
+### 1. Overview Dashboard
+Central operations hub displaying live intelligence metrics, honest connection states, quick evidence search, and pending candidate context requiring user approval.
+
+![Overview Dashboard](screenshots/01_overview.png)
+
+---
+
+### 2. Evermind Memory Engine (Primary Track)
+Ingests wearable transcripts directly from `@beeai/cli`, extracts candidate memories, and provides an inline review gate to approve or reject items before permanent storage.
+
+![Evermind Memory Engine](screenshots/02_evermind_memory.png)
+
+---
+
+### 3. LooseEnds AI — Commitment Intelligence Ledger
+Converts conversational promises into an actionable ledger with responsible owners, deadlines, overdue alerts, and automated follow-up drafts with an explicit confirmation gate.
+
+![LooseEnds AI Commitments](screenshots/03_looseends_commitments.png)
+
+---
+
+### 4. DoorstepOps — Ring Business Incidents
+Operational case management for Ring camera telemetry, package tracking, and unauthorized access events conforming to `developer.ring.com` partner specifications.
+
+![DoorstepOps Ring Incidents](screenshots/04_doorstepops_incidents.png)
+
+---
+
+### 5. FormShift — Adaptive Fire TV Workouts
+10-foot Leanback interface designed for Amazon Fire TV with remote-friendly D-Pad controls (`Easier`, `Harder`, `Shorter`, `Skip`) and real-time exercise adaptation.
+
+![FormShift Fire TV Workouts](screenshots/05_formshift_workouts.png)
+
+---
+
+### 6. AI Memory Assistant (Evidence-Grounded RAG)
+Conversational interface querying verified Evermind records with zero hallucinations, citing exact source passages, timestamps, and confidence scores.
+
+![AI Memory Assistant](screenshots/06_ai_assistant.png)
+
+---
+
+### 7. Integrations Hub
+Honest integration state matrix covering Bee Wearable CLI (`@beeai/cli 0.9.0`), AWS DynamoDB & S3 cloud mirroring, Ring Developer Partner API, Fire TV Leanback container, and Alexa+ ASK Skill model.
+
+![Integrations Hub](screenshots/07_integrations_hub.png)
+
+---
+
+### 8. Activity & Audit History
+Tamper-evident chronological log of all memory ingestions, approvals, commitment state transitions, incident escalations, and data operations.
+
+![Activity & Audit History](screenshots/08_activity_history.png)
+
+---
+
+### 9. Privacy & Settings
+Identity configurations, local SQLite encryption details, full structured JSON data export, and GDPR permanent data wipe controls.
+
+![Privacy & Settings](screenshots/09_privacy_settings.png)
 
 ---
 
