@@ -99,17 +99,19 @@ Identity configurations, local SQLite encryption details, full structured JSON d
 
 ### Step 1: Clone and Navigate
 ```bash
-cd "c:\Users\Aryan Kumar\Desktop\hackthon\Mind"
+git clone <repository-url>
+cd everlife-ai
 ```
 
 ### Step 2: Configure Environment
 Copy the `.env.example` template:
-```powershell
-Copy-Item .env.example .env
+```bash
+cp .env.example .env
+# Windows: copy .env.example .env
 ```
 
 ### Step 3: Run the Backend (FastAPI)
-```powershell
+```bash
 cd backend
 python -m pip install -r requirements.txt
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
@@ -118,7 +120,7 @@ python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 ### Step 4: Run the Frontend (React + Vite)
 In a second terminal:
-```powershell
+```bash
 cd frontend
 npm install
 npm run dev
@@ -167,11 +169,11 @@ All 4 test suites pass with 100% success rate:
 
 ## 📂 Key Documentation & Deliverables
 
-- [ARCHITECTURE.md](file:///c:/Users/Aryan%20Kumar/Desktop/hackthon/Mind/ARCHITECTURE.md) — System architecture diagrams, module specifications, and security model.
-- [VERIFICATION_REPORT.md](file:///c:/Users/Aryan%20Kumar/Desktop/hackthon/Mind/VERIFICATION_REPORT.md) — Automated test results, browser recording logs, and honest status matrix.
-- [DEMO_SCRIPT.md](file:///c:/Users/Aryan%20Kumar/Desktop/hackthon/Mind/DEMO_SCRIPT.md) — Step-by-step hackathon video presentation script.
-- [SUBMISSION_CHECKLIST.md](file:///c:/Users/Aryan%20Kumar/Desktop/hackthon/Mind/SUBMISSION_CHECKLIST.md) — Verified MVP capabilities and manual user action guide.
-- [.env.example](file:///c:/Users/Aryan%20Kumar/Desktop/hackthon/Mind/.env.example) — Clean environment configuration template without secrets.
+- [ARCHITECTURE.md](ARCHITECTURE.md) — System architecture diagrams, module specifications, and security model.
+- [VERIFICATION_REPORT.md](VERIFICATION_REPORT.md) — Automated test results, browser recording logs, and honest status matrix.
+- [DEMO_SCRIPT.md](DEMO_SCRIPT.md) — Step-by-step hackathon video presentation script.
+- [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md) — Verified MVP capabilities and manual user action guide.
+- [.env.example](.env.example) — Clean environment configuration template without secrets.
 
 ---
 
